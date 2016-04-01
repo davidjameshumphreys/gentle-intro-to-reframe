@@ -22,9 +22,10 @@ Just patterns<sup>*</sup>
 
 Some patterns emerge
 * Cross-component chatter
-* Synchronising state
-* Updating state
-* Naming bits of state
+* State
+  * Synchronising
+  * Updating
+  * Naming
 * <!-- .element class="fragment" -->&c.
 * <!-- .element class="fragment" -->etc.
 * <!-- .element class="fragment" -->et cetera
@@ -33,6 +34,7 @@ Some patterns emerge
 ---
 
 ## Why?
+
 Large-scale code exaggerates problems
 
 ---
