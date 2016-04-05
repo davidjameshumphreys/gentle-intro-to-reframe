@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>Gently Introducing Re-frame</title>
   <meta name="description" content="">
-  <meta name="author" content="David James Humphreys">
+  <meta name="author" content="Minh Tran & David James Humphreys">
   <meta name="apple-mobile-web-app-capable" content="yes"/>
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -31,8 +31,7 @@
   <div class="slides">
     <section id="title">
       <h2>Gently Introducing Re-frame</h2>
-      <p>Minh & David</p>
-      <p>TODO: credits for Style.com &c.</p>
+      <p>Minh Tran & David Humphreys</p>
     </section>
     <section data-markdown="slides.md"
              data-separator="^---$"
@@ -103,10 +102,10 @@
       {src: './js/plugin/zoom-js/zoom.js', async: true},
       {src: './js/plugin/notes/notes.js', async: true},
       {src: './js/plugin/markdown/marked.js', condition: isMD, async: true},
-      {src: './js/plugin/markdown/markdown.js', condition: isMD, async: true,
-      callback:fixup}
-    ]
-  });
+      {
+        src: './js/plugin/markdown/markdown.js', condition: isMD, async: true,
+        callback: fixup
+      }]});
 
   /** Hide the logo footer when on the start slide only.
    * @param event the Reveal event
